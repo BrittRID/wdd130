@@ -1,5 +1,35 @@
 body {
-    text-align: center;
-    color: red;
-    background-color: black;
+  background-color: #fcfbfb; 
+ 
   }
+  header {
+    background-color:rgba(20,30,13, .7);
+    
+}
+nav a:hover {
+    background-color: black;
+    color: #d9c2a3;
+}
+  
+#background {
+  height: 725px;
+}
+
+.icon {
+  width: 80px;
+  text-align: center;
+}
+
+nav a {
+  text-align: center;
+  color: #fcfbfb;
+  text-decoration: none;
+}
+
+footer p {
+  font-size: 1.2em;
+}
+
+footer p a:hover {
+  text-decoration: underline;
+} 
