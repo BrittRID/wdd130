@@ -10,16 +10,109 @@ nav a:hover {
     background-color: black;
     color: #d9c2a3;
 }
+
+.home-title {
+  background-color: orange;
+}
+h4{
+  text-align: center;
+}
+.book, .join{
+  text-align: center;
+    color: #247aba;
+    text-decoration: none;
+    background-color: orange;
+}
+.join:hover{
+  background-color: orange;
+}
+.msg{
+  background-color: orange;
+}
+.msg h2{
+  text-align: center;
+  background-color: #247aba;
+}
+.msg p{
+  text-align: center;
+  background-color: #db8f1e;
+}
+.camping-card{
+  text-align: center;
+}
+.hero-box{
+  text-align: center;
+}
+
+footer{
+  text-align: center;
+  background-color: #934c15;
+}
+footer a{
+  text-align: center;
+  background-color: #e0e7e5;
+}
+.footer a:hover{
+  text-align: center;
+  background-color: lightgrey;
+  text-decoration: none;
+} 
+
+.img {
+  max-width: 100%;
+}
   
 #background {
   height: 725px;
+  max-width: 1600px;
+  background-color: orange;
 }
 
+.card-img {
+ 
+  text-align: center;
+}
+.rapids-card {
+ 
+  text-align: center;
+}
+.rivers-card {
+  text-align: center;
+
+}
 .icon {
   width: 80px;
   text-align: center;
 }
-
+.card-img{
+  text-align: center;
+}
+#hero-msg h1, #hero-msg h4 {
+  text-align: center;
+}
+.hero-img{
+  width: 200px;
+  text-align: center;
+}
+#hero-box{
+  text-align: center;
+  width: auto; 
+  max-width:100%;
+  height:auto;
+  margin: 20px;
+  padding:20px;
+  
+ 
+}
+.button-box{
+  text-align: center;
+}
+.main {
+  text-align: center;
+}
+.section{
+  text-align: center;
+}
 nav a {
   text-align: center;
   color: #fcfbfb;
