@@ -1,16 +1,13 @@
 body {
   background-color: #fcfbfb; 
- 
   }
   header {
-    background-color:rgba(20,30,13, .7);
-    
+    background-color:rgba(20,30,13, .7);  
 }
 nav a:hover {
     background-color: black;
     color: #d9c2a3;
 }
-
 .home-title {
   background-color: orange;
 }
@@ -40,10 +37,6 @@ h4{
 .camping-card{
   text-align: center;
 }
-.hero-box{
-  text-align: center;
-}
-
 footer{
   text-align: center;
   background-color: #934c15;
@@ -57,19 +50,15 @@ footer a{
   background-color: lightgrey;
   text-decoration: none;
 } 
-
-.img {
+/* .img {
   max-width: 100%;
-}
-  
+}   */
 #background {
   height: 725px;
   max-width: 1600px;
   background-color: orange;
 }
-
 .card-img {
- 
   text-align: center;
 }
 .rapids-card {
@@ -78,11 +67,13 @@ footer a{
 }
 .rivers-card {
   text-align: center;
-
 }
 .icon {
   width: 80px;
   text-align: center;
+}
+.logo{
+  width: 80px;
 }
 .card-img{
   text-align: center;
@@ -98,11 +89,7 @@ footer a{
   text-align: center;
   width: auto; 
   max-width:100%;
-  height:auto;
-  margin: 20px;
-  padding:20px;
   
- 
 }
 .button-box{
   text-align: center;
