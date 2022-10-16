@@ -1,15 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 body {
   background-color: #fcfbfb; 
+  font-family: Raleway, Arial, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+  
   }
-  header {
+  .home-title {
+    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
+    background-color: orange;
+} 
+header {
     background-color:rgba(20,30,13, .7);  
 }
+main section img {
+  box-sizing: border-box;
+}
+
 nav a:hover {
     background-color: black;
     color: #d9c2a3;
-}
-.home-title {
-  background-color: orange;
 }
 h4{
   text-align: center;
@@ -18,28 +31,40 @@ h4{
   text-align: center;
     color: #247aba;
     text-decoration: none;
+    font-size: 18px;
     background-color: orange;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .join:hover{
   background-color: orange;
 }
 .msg{
   background-color: orange;
+  line-height: 1.5em;
+  padding: 35px; 
 }
 .msg h2{
   text-align: center;
   background-color: #247aba;
 }
+.h2 {
+  margin: 0;
+}
 .msg p{
   text-align: center;
   background-color: #db8f1e;
+  padding-bottom: 15px;
 }
 .camping-card{
   text-align: center;
 }
-footer{
+footer {
   text-align: center;
   background-color: #934c15;
+  padding: 25px 50px;
+  margin-top: 200px;
 }
 footer a{
   text-align: center;
@@ -58,22 +83,31 @@ footer a{
   max-width: 1600px;
   background-color: orange;
 }
+.camping-card{
+  margin: 200px 0; 
+}
 .card-img {
   text-align: center;
+  border: 10px solid #cdb6b6;
 }
 .rapids-card {
- 
+  margin: 200px 0;
   text-align: center;
 }
 .rivers-card {
+  text-align: center;
   text-align: center;
 }
 .icon {
   width: 80px;
   text-align: center;
+  padding-top: 10px;
 }
 .logo{
   width: 80px;
+}
+#logo_link {
+  padding-top: 5px;
 }
 .card-img{
   text-align: center;
@@ -83,13 +117,12 @@ footer a{
 }
 .hero-img{
   width: 200px;
-  text-align: center;
+  /* text-align: center; */
 }
 #hero-box{
   text-align: center;
   width: auto; 
   max-width:100%;
-  
 }
 .button-box{
   text-align: center;
@@ -104,12 +137,14 @@ nav a {
   text-align: center;
   color: #fcfbfb;
   text-decoration: none;
+  padding: 35px;
 }
-
 footer p {
   font-size: 1.2em;
 }
-
 footer p a:hover {
   text-decoration: underline;
 } 
+footer .social img {
+  padding-top: 15px;
+}
